@@ -7,7 +7,7 @@ export default function Skills() {
     <section>
       <div className='flex flex-col items-center p-10 text-center'>
         <h1 className='p-5 text-4xl font-extrabold'>Skills</h1>
-        <p className='w-2/5 text-2xl'>{Subtitle}</p>
+        <p className='text-2xl'>{Subtitle}</p>
       </div>
 
       <div className='flex flex-wrap justify-center gap-20'>
