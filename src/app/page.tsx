@@ -1,14 +1,16 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-import Skills from '@/components/skills'
+import Skills from '@/components/sections/skills'
+import Portofilo from '@/components/sections/portoflio'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={inter.className}>
-          <Skills />
+      <Skills />
+      <Portofilo />
     </main>
   )
 }
