@@ -1,14 +1,13 @@
 import Image from 'next/image'
 
 export default function Skills() {
+  const Subtitle: string =
+    "Building Dynamic and Engaging Web Applications and API's with the Latest Technologies"
   return (
     <section>
       <div className='flex flex-col items-center p-10 text-center'>
         <h1 className='p-5 text-4xl font-extrabold'>Skills</h1>
-        <p className='w-2/5 text-2xl'>
-          Building Dynamic and Engaging Web Applications and API's with the
-          Latest Technologies
-        </p>
+        <p className='w-2/5 text-2xl'>{Subtitle}</p>
       </div>
 
       <div className='flex flex-wrap justify-center gap-20'>
