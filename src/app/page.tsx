@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={inter.className}>
+    <main id='canvas' className={inter.className}>
       <AboutMe />
       <Skills />
       <Portofilo />

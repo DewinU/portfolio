@@ -4,10 +4,10 @@ export default function Skills() {
   const Subtitle: string =
     "Building Dynamic and Engaging Web Applications and API's with the Latest Technologies"
   return (
-    <section>
-      <div className='flex flex-col items-center p-10 text-center'>
-        <h1 className='p-5 text-4xl font-extrabold'>Skills</h1>
-        <p className='text-2xl'>{Subtitle}</p>
+    <section className='grid place-items-center'>
+      <div className='p-10'>
+        <h1 className='p-5 text-center text-4xl font-extrabold'>Skills</h1>
+        <p className='text-center text-2xl'>{Subtitle}</p>
       </div>
 
       <div className='flex flex-wrap justify-center gap-20'>
