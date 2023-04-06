@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import profilePic from 'public/assets/aboutMe/profilepic.jpg'
 
-
 export default function AboutMe() {
   const who: string = "I'm a FullStack Developer, located in Nicaragua."
   const hobbies: string =
@@ -25,6 +24,7 @@ export default function AboutMe() {
           placeholder='blur'
           width={260}
           height={260}
+          priority={true}
         />
         <div className='flex flex-row justify-center gap-4'>
           <Image
