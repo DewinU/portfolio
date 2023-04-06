@@ -22,6 +22,7 @@ export default function AboutMe() {
           alt='xd'
           width={260}
           height={260}
+          priority={true}
         />
         <div className='flex flex-row justify-center gap-4'>
           <Image
