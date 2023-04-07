@@ -5,6 +5,18 @@ export default function Document() {
   return (
     <Html lang='en'>
       <Head>
+        <Script
+          id='tag-manager'
+          strategy='worker'
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-YE9GWTLB88'></Script>
+        <Script
+          id='google-analytics'
+          strategy='worker'>{`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-YE9GWTLB88');`}</Script>
         <Script id='hotjar' strategy='worker'>
           {`(function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
