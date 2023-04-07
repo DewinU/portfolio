@@ -8,7 +8,6 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
-import Image from 'next/image'
 import azure from 'public/assets/certifications/azure.png'
 import aws from 'public/assets/certifications/aws.png'
 import platzi_js from 'public/assets/certifications/platzi_js.png'
@@ -30,11 +29,7 @@ export default function Slider() {
         768: {
           slidesPerView: 2,
         },
-
-        1024: {
-          slidesPerView: 3,
-        },
-
+        
         1280: {
           slidesPerView: 4,
         },
