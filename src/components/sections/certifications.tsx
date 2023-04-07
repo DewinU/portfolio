@@ -1,8 +1,13 @@
+import Slider from '../elements/Slider/slider'
+
 export default function Certifications() {
   return (
     <>
-      <section className='grid place-items-center'>
-        <h1 className='text-4xl font-extrabold'>Certifications</h1>
+      <section>
+        <h1 className='p-10 text-center text-4xl font-extrabold'>
+          Certifications
+        </h1>
+        <Slider />
       </section>
     </>
   )
