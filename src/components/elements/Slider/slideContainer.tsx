@@ -19,6 +19,7 @@ export default function SlideContainer({
         alt='azure'
         width={width || 200}
         height={height || 200}
+        placeholder='blur'
       />
     </div>
   )
