@@ -5,6 +5,7 @@ import { GTM_ID } from '../lib/gtm'
 export default function Document() {
   return (
     <Html lang='en'>
+      <Head/>
       <body>
         <noscript>
           <iframe
