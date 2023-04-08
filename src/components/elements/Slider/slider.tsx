@@ -29,7 +29,7 @@ export default function Slider() {
         768: {
           slidesPerView: 2,
         },
-        
+
         1280: {
           slidesPerView: 4,
         },
@@ -37,8 +37,9 @@ export default function Slider() {
       navigation
       loop={true}
       pagination={{ clickable: true }}
-      onSwiper={swiper => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}>
+      //onSwiper={swiper => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
+    >
       <SwiperSlide>
         <SlideContainer image={azure} title={'Microsoft Azure Fundamentals'} />
       </SwiperSlide>
