@@ -4,7 +4,7 @@ import profilePic from 'public/assets/aboutMe/profilepic.jpg'
 export default function AboutMe() {
   const who: string = "I'm a FullStack Developer, located in Nicaragua."
   const hobbies: string =
-    "When i'm not codying, you can find me fixing and assembling PC's and playing videogames or backetball, i'm a hardware enthusiast and a gamer."
+    "When i'm not codying, you can find me fixing and assembling PC's and playing videogames or basketball, i'm a hardware enthusiast and a gamer."
   const skills: string =
     'These activities help me maintain a healthy work-life balance and keep me energized and focused on my work.'
 
