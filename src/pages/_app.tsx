@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
       {/* Google Tag Manager - Global base code */}
       <Script
         id='gtag-base'
-        strategy='worker'
+        strategy='afterInteractive'
         dangerouslySetInnerHTML={{
           __html: `
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
